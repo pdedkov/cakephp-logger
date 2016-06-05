@@ -1,0 +1,22 @@
+{
+    "name": "pdedkov/cakephp-logger",
+    "description": "simple logger",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Pavel E. Dedkov",
+            "email": "pavel.dedkov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">= 5.4.0",
+        "pdedkov/config": "dev-master",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "Logger"
+    }
+}

@@ -1,0 +1,2 @@
+<?php
+Configure::write('Logger.engine', 'File');

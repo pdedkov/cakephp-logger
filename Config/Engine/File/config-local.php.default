@@ -1,0 +1,5 @@
+<?php
+// путь к логам
+Configure::write('Logger.File.dir', TMP . DS . 'logs');
+// лог по умолчанию
+Configure::write('Logger.File.default', 'default');
